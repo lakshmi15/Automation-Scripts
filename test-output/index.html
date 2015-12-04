@@ -1,0 +1,2099 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Project\QuickRide\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">74 methods,  74 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RechargeEncashTest" hash-for-method="testBillingCustomisedPricing">testBillingCustomisedPricing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RechargeEncashTest" hash-for-method="testBillingZeroPricing">testBillingZeroPricing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testCancelledStsPassenger">testCancelledStsPassenger</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testCancelledStsRider">testCancelledStsRider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testCarCapacityCancelRide">testCarCapacityCancelRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.UserConfigTest" hash-for-method="testChangePassword">testChangePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testCloseReOpenQR">testCloseReOpenQR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testCompletedStatusPassenger">testCompletedStatusPassenger</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testCompletedStatusRider">testCompletedStatusRider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testCreateMultipleRiders">testCreateMultipleRiders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.VehicleCustomisationTest" hash-for-method="testDefaultVehicleAdded">testDefaultVehicleAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RechargeEncashTest" hash-for-method="testEncashAmountShare">testEncashAmountShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RechargeEncashTest" hash-for-method="testEncashAmountShareLater">testEncashAmountShareLater</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.SocialGuestTest" hash-for-method="testFBLogin">testFBLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.VehicleCustomisationTest" hash-for-method="testFare">testFare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.UserConfigTest" hash-for-method="testForgetPassword">testForgetPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.GroupChatTest" hash-for-method="testGroupChat">testGroupChat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testGroupChatIcn">testGroupChatIcn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.SocialGuestTest" hash-for-method="testGuestSignUp">testGuestSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testLocation">testLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.SocialGuestTest" hash-for-method="testLoginOthrUser">testLoginOthrUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testLoginWrongPwd">testLoginWrongPwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testLogoutNoVerifyQuickRide">testLogoutNoVerifyQuickRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testLogoutReLogin">testLogoutReLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testMoreCarCapacitySeats">testMoreCarCapacitySeats</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testMyRidesFavourite">testMyRidesFavourite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testNewUserSignUP">testNewUserSignUP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testNewUserSignUPProfile">testNewUserSignUPProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testNotiCountTxt">testNotiCountTxt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testNotiDeleteBySwipe">testNotiDeleteBySwipe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testNotiDeletedLongPress">testNotiDeletedLongPress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testNotiPassengerJoinsCancelsAfterStart">testNotiPassengerJoinsCancelsAfterStart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testNotiProfile">testNotiProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testNotiReject">testNotiReject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.GroupChatTest" hash-for-method="testOfflineGroupChat">testOfflineGroupChat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testOffrRdCurrentLoc">testOffrRdCurrentLoc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testPassengerCancelStatus">testPassengerCancelStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testPassengerCheckIn">testPassengerCheckIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testPassengerCheckOut">testPassengerCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testPassengerJoinsCancels">testPassengerJoinsCancels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.FeedbackTest" hash-for-method="testRatingFeedback">testRatingFeedback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testRdrRejectsPassngr">testRdrRejectsPassngr</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testRdrRejectsPassngrSrchRider">testRdrRejectsPassngrSrchRider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RechargeEncashTest" hash-for-method="testRecharge">testRecharge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RechargeEncashTest" hash-for-method="testRechargeJoinRide">testRechargeJoinRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testReqstRdCurrentLoc">testReqstRdCurrentLoc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testRequestedStatusPassenger">testRequestedStatusPassenger</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testRequestedStatusRider">testRequestedStatusRider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testRideNotiPassengerJoinsCancels">testRideNotiPassengerJoinsCancels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testRiderAcceptsPassengerCancelsSts">testRiderAcceptsPassengerCancelsSts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testRiderCancelRide">testRiderCancelRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testRiderPassengerJoinNoti">testRiderPassengerJoinNoti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testRiderStartedCancelled">testRiderStartedCancelled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NotificationsTest" hash-for-method="testRiderStartedNoti">testRiderStartedNoti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testRiderStopRide">testRiderStopRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideMatchConstraintsTest" hash-for-method="testSameCompany">testSameCompany</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideMatchConstraintsTest" hash-for-method="testSameGender">testSameGender</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testScheduledStatusPassenger">testScheduledStatusPassenger</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testScheduledStatusRider">testScheduledStatusRider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testSelectRide">testSelectRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testSignUpErrCode">testSignUpErrCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testSignUpIncomplete">testSignUpIncomplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.NewUserRegTest" hash-for-method="testSignUpSameUser">testSignUpSameUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testStartRide">testStartRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testStartedStatusPassenger">testStartedStatusPassenger</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RidesTest" hash-for-method="testStartedStatusRider">testStartedStatusRider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.VehicleCustomisationTest" hash-for-method="testSupportBike">testSupportBike</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideScheduleTest" hash-for-method="testUpcomingRequested">testUpcomingRequested</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.UserConfigTest" hash-for-method="testUserDifferentDevices">testUserDifferentDevices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.UserConfigTest" hash-for-method="testUserProfileSocialLinks">testUserProfileSocialLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.UserConfigTest" hash-for-method="testUsersetting">testUsersetting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.UserConfigTest" hash-for-method="testUserupdating">testUserupdating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.RideViewTest" hash-for-method="testpassengercancelRide">testpassengercancelRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quickride.scripts.FeedbackTest" hash-for-method="testratingFeedback">testratingFeedback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.RidesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCancelledStsPassenger">
+                  </a> <!-- testCancelledStsPassenger -->
+                  <span class="method-name">testCancelledStsPassenger</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCancelledStsRider">
+                  </a> <!-- testCancelledStsRider -->
+                  <span class="method-name">testCancelledStsRider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompletedStatusPassenger">
+                  </a> <!-- testCompletedStatusPassenger -->
+                  <span class="method-name">testCompletedStatusPassenger</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompletedStatusRider">
+                  </a> <!-- testCompletedStatusRider -->
+                  <span class="method-name">testCompletedStatusRider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPassengerCancelStatus">
+                  </a> <!-- testPassengerCancelStatus -->
+                  <span class="method-name">testPassengerCancelStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRequestedStatusPassenger">
+                  </a> <!-- testRequestedStatusPassenger -->
+                  <span class="method-name">testRequestedStatusPassenger</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRequestedStatusRider">
+                  </a> <!-- testRequestedStatusRider -->
+                  <span class="method-name">testRequestedStatusRider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRiderAcceptsPassengerCancelsSts">
+                  </a> <!-- testRiderAcceptsPassengerCancelsSts -->
+                  <span class="method-name">testRiderAcceptsPassengerCancelsSts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScheduledStatusPassenger">
+                  </a> <!-- testScheduledStatusPassenger -->
+                  <span class="method-name">testScheduledStatusPassenger</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScheduledStatusRider">
+                  </a> <!-- testScheduledStatusRider -->
+                  <span class="method-name">testScheduledStatusRider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStartedStatusPassenger">
+                  </a> <!-- testStartedStatusPassenger -->
+                  <span class="method-name">testStartedStatusPassenger</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStartedStatusRider">
+                  </a> <!-- testStartedStatusRider -->
+                  <span class="method-name">testStartedStatusRider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.UserConfigTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangePassword">
+                  </a> <!-- testChangePassword -->
+                  <span class="method-name">testChangePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgetPassword">
+                  </a> <!-- testForgetPassword -->
+                  <span class="method-name">testForgetPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserDifferentDevices">
+                  </a> <!-- testUserDifferentDevices -->
+                  <span class="method-name">testUserDifferentDevices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserProfileSocialLinks">
+                  </a> <!-- testUserProfileSocialLinks -->
+                  <span class="method-name">testUserProfileSocialLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUsersetting">
+                  </a> <!-- testUsersetting -->
+                  <span class="method-name">testUsersetting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserupdating">
+                  </a> <!-- testUserupdating -->
+                  <span class="method-name">testUserupdating</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.RechargeEncashTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBillingCustomisedPricing">
+                  </a> <!-- testBillingCustomisedPricing -->
+                  <span class="method-name">testBillingCustomisedPricing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBillingZeroPricing">
+                  </a> <!-- testBillingZeroPricing -->
+                  <span class="method-name">testBillingZeroPricing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEncashAmountShare">
+                  </a> <!-- testEncashAmountShare -->
+                  <span class="method-name">testEncashAmountShare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEncashAmountShareLater">
+                  </a> <!-- testEncashAmountShareLater -->
+                  <span class="method-name">testEncashAmountShareLater</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRecharge">
+                  </a> <!-- testRecharge -->
+                  <span class="method-name">testRecharge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRechargeJoinRide">
+                  </a> <!-- testRechargeJoinRide -->
+                  <span class="method-name">testRechargeJoinRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.NewUserRegTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCloseReOpenQR">
+                  </a> <!-- testCloseReOpenQR -->
+                  <span class="method-name">testCloseReOpenQR</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWrongPwd">
+                  </a> <!-- testLoginWrongPwd -->
+                  <span class="method-name">testLoginWrongPwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutNoVerifyQuickRide">
+                  </a> <!-- testLogoutNoVerifyQuickRide -->
+                  <span class="method-name">testLogoutNoVerifyQuickRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutReLogin">
+                  </a> <!-- testLogoutReLogin -->
+                  <span class="method-name">testLogoutReLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewUserSignUP">
+                  </a> <!-- testNewUserSignUP -->
+                  <span class="method-name">testNewUserSignUP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewUserSignUPProfile">
+                  </a> <!-- testNewUserSignUPProfile -->
+                  <span class="method-name">testNewUserSignUPProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpErrCode">
+                  </a> <!-- testSignUpErrCode -->
+                  <span class="method-name">testSignUpErrCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpIncomplete">
+                  </a> <!-- testSignUpIncomplete -->
+                  <span class="method-name">testSignUpIncomplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpSameUser">
+                  </a> <!-- testSignUpSameUser -->
+                  <span class="method-name">testSignUpSameUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.RideMatchConstraintsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSameCompany">
+                  </a> <!-- testSameCompany -->
+                  <span class="method-name">testSameCompany</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSameGender">
+                  </a> <!-- testSameGender -->
+                  <span class="method-name">testSameGender</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.VehicleCustomisationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDefaultVehicleAdded">
+                  </a> <!-- testDefaultVehicleAdded -->
+                  <span class="method-name">testDefaultVehicleAdded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFare">
+                  </a> <!-- testFare -->
+                  <span class="method-name">testFare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSupportBike">
+                  </a> <!-- testSupportBike -->
+                  <span class="method-name">testSupportBike</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.RideViewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateMultipleRiders">
+                  </a> <!-- testCreateMultipleRiders -->
+                  <span class="method-name">testCreateMultipleRiders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGroupChatIcn">
+                  </a> <!-- testGroupChatIcn -->
+                  <span class="method-name">testGroupChatIcn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLocation">
+                  </a> <!-- testLocation -->
+                  <span class="method-name">testLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPassengerCheckIn">
+                  </a> <!-- testPassengerCheckIn -->
+                  <span class="method-name">testPassengerCheckIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPassengerCheckOut">
+                  </a> <!-- testPassengerCheckOut -->
+                  <span class="method-name">testPassengerCheckOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRiderCancelRide">
+                  </a> <!-- testRiderCancelRide -->
+                  <span class="method-name">testRiderCancelRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRiderStopRide">
+                  </a> <!-- testRiderStopRide -->
+                  <span class="method-name">testRiderStopRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStartRide">
+                  </a> <!-- testStartRide -->
+                  <span class="method-name">testStartRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testpassengercancelRide">
+                  </a> <!-- testpassengercancelRide -->
+                  <span class="method-name">testpassengercancelRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.NotificationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotiCountTxt">
+                  </a> <!-- testNotiCountTxt -->
+                  <span class="method-name">testNotiCountTxt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotiDeleteBySwipe">
+                  </a> <!-- testNotiDeleteBySwipe -->
+                  <span class="method-name">testNotiDeleteBySwipe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotiDeletedLongPress">
+                  </a> <!-- testNotiDeletedLongPress -->
+                  <span class="method-name">testNotiDeletedLongPress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotiPassengerJoinsCancelsAfterStart">
+                  </a> <!-- testNotiPassengerJoinsCancelsAfterStart -->
+                  <span class="method-name">testNotiPassengerJoinsCancelsAfterStart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotiProfile">
+                  </a> <!-- testNotiProfile -->
+                  <span class="method-name">testNotiProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotiReject">
+                  </a> <!-- testNotiReject -->
+                  <span class="method-name">testNotiReject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPassengerJoinsCancels">
+                  </a> <!-- testPassengerJoinsCancels -->
+                  <span class="method-name">testPassengerJoinsCancels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRideNotiPassengerJoinsCancels">
+                  </a> <!-- testRideNotiPassengerJoinsCancels -->
+                  <span class="method-name">testRideNotiPassengerJoinsCancels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRiderPassengerJoinNoti">
+                  </a> <!-- testRiderPassengerJoinNoti -->
+                  <span class="method-name">testRiderPassengerJoinNoti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRiderStartedCancelled">
+                  </a> <!-- testRiderStartedCancelled -->
+                  <span class="method-name">testRiderStartedCancelled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRiderStartedNoti">
+                  </a> <!-- testRiderStartedNoti -->
+                  <span class="method-name">testRiderStartedNoti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.RideScheduleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCarCapacityCancelRide">
+                  </a> <!-- testCarCapacityCancelRide -->
+                  <span class="method-name">testCarCapacityCancelRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoreCarCapacitySeats">
+                  </a> <!-- testMoreCarCapacitySeats -->
+                  <span class="method-name">testMoreCarCapacitySeats</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyRidesFavourite">
+                  </a> <!-- testMyRidesFavourite -->
+                  <span class="method-name">testMyRidesFavourite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOffrRdCurrentLoc">
+                  </a> <!-- testOffrRdCurrentLoc -->
+                  <span class="method-name">testOffrRdCurrentLoc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRdrRejectsPassngr">
+                  </a> <!-- testRdrRejectsPassngr -->
+                  <span class="method-name">testRdrRejectsPassngr</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRdrRejectsPassngrSrchRider">
+                  </a> <!-- testRdrRejectsPassngrSrchRider -->
+                  <span class="method-name">testRdrRejectsPassngrSrchRider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReqstRdCurrentLoc">
+                  </a> <!-- testReqstRdCurrentLoc -->
+                  <span class="method-name">testReqstRdCurrentLoc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectRide">
+                  </a> <!-- testSelectRide -->
+                  <span class="method-name">testSelectRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpcomingRequested">
+                  </a> <!-- testUpcomingRequested -->
+                  <span class="method-name">testUpcomingRequested</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.GroupChatTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGroupChat">
+                  </a> <!-- testGroupChat -->
+                  <span class="method-name">testGroupChat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOfflineGroupChat">
+                  </a> <!-- testOfflineGroupChat -->
+                  <span class="method-name">testOfflineGroupChat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.FeedbackTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRatingFeedback">
+                  </a> <!-- testRatingFeedback -->
+                  <span class="method-name">testRatingFeedback</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testratingFeedback">
+                  </a> <!-- testratingFeedback -->
+                  <span class="method-name">testratingFeedback</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.quickride.scripts.SocialGuestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFBLogin">
+                  </a> <!-- testFBLogin -->
+                  <span class="method-name">testFBLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGuestSignUp">
+                  </a> <!-- testGuestSignUp -->
+                  <span class="method-name">testGuestSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginOthrUser">
+                  </a> <!-- testLoginOthrUser -->
+                  <span class="method-name">testLoginOthrUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Project\QuickRide\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; parallel=&quot;none&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.quickride.baselib.QRTestngListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.quickride.scripts.FeedbackTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.GroupChatTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.NewUserRegTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.NotificationsTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.RechargeEncashTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.RideMatchConstraintsTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.RideScheduleTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.RidesTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.RideViewTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.SocialGuestTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.UserConfigTest&quot;/&gt;
+      &lt;class name=&quot;com.quickride.scripts.VehicleCustomisationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(74);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLocation')
+data.setCell(0, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(0, 3, 9);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRequestedStatusRider')
+data.setCell(1, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMoreCarCapacitySeats')
+data.setCell(2, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testRiderStopRide')
+data.setCell(3, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testpassengercancelRide')
+data.setCell(4, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRatingFeedback')
+data.setCell(5, 2, 'com.quickride.scripts.FeedbackTest')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testScheduledStatusPassenger')
+data.setCell(6, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testReqstRdCurrentLoc')
+data.setCell(7, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCloseReOpenQR')
+data.setCell(8, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGuestSignUp')
+data.setCell(9, 2, 'com.quickride.scripts.SocialGuestTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRiderPassengerJoinNoti')
+data.setCell(10, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCarCapacityCancelRide')
+data.setCell(11, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testRdrRejectsPassngr')
+data.setCell(12, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testUsersetting')
+data.setCell(13, 2, 'com.quickride.scripts.UserConfigTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testPassengerCheckIn')
+data.setCell(14, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testEncashAmountShare')
+data.setCell(15, 2, 'com.quickride.scripts.RechargeEncashTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSignUpErrCode')
+data.setCell(16, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testEncashAmountShareLater')
+data.setCell(17, 2, 'com.quickride.scripts.RechargeEncashTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSignUpIncomplete')
+data.setCell(18, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testLoginWrongPwd')
+data.setCell(19, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testPassengerCancelStatus')
+data.setCell(20, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMyRidesFavourite')
+data.setCell(21, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testRechargeJoinRide')
+data.setCell(22, 2, 'com.quickride.scripts.RechargeEncashTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testGroupChat')
+data.setCell(23, 2, 'com.quickride.scripts.GroupChatTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCancelledStsRider')
+data.setCell(24, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testDefaultVehicleAdded')
+data.setCell(25, 2, 'com.quickride.scripts.VehicleCustomisationTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testRiderCancelRide')
+data.setCell(26, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testForgetPassword')
+data.setCell(27, 2, 'com.quickride.scripts.UserConfigTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testNotiPassengerJoinsCancelsAfterStart')
+data.setCell(28, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testRequestedStatusPassenger')
+data.setCell(29, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testStartedStatusPassenger')
+data.setCell(30, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testRiderStartedCancelled')
+data.setCell(31, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testRecharge')
+data.setCell(32, 2, 'com.quickride.scripts.RechargeEncashTest')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testOfflineGroupChat')
+data.setCell(33, 2, 'com.quickride.scripts.GroupChatTest')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testStartRide')
+data.setCell(34, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testStartedStatusRider')
+data.setCell(35, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testratingFeedback')
+data.setCell(36, 2, 'com.quickride.scripts.FeedbackTest')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testBillingCustomisedPricing')
+data.setCell(37, 2, 'com.quickride.scripts.RechargeEncashTest')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testCompletedStatusRider')
+data.setCell(38, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(38, 3, 1);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSignUpSameUser')
+data.setCell(39, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testLogoutNoVerifyQuickRide')
+data.setCell(40, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testFare')
+data.setCell(41, 2, 'com.quickride.scripts.VehicleCustomisationTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testBillingZeroPricing')
+data.setCell(42, 2, 'com.quickride.scripts.RechargeEncashTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testPassengerCheckOut')
+data.setCell(43, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testLoginOthrUser')
+data.setCell(44, 2, 'com.quickride.scripts.SocialGuestTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testPassengerJoinsCancels')
+data.setCell(45, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testSelectRide')
+data.setCell(46, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testSameCompany')
+data.setCell(47, 2, 'com.quickride.scripts.RideMatchConstraintsTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testCreateMultipleRiders')
+data.setCell(48, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testNotiDeleteBySwipe')
+data.setCell(49, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testCancelledStsPassenger')
+data.setCell(50, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testNotiDeletedLongPress')
+data.setCell(51, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testRdrRejectsPassngrSrchRider')
+data.setCell(52, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testSameGender')
+data.setCell(53, 2, 'com.quickride.scripts.RideMatchConstraintsTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testUserDifferentDevices')
+data.setCell(54, 2, 'com.quickride.scripts.UserConfigTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testRideNotiPassengerJoinsCancels')
+data.setCell(55, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testOffrRdCurrentLoc')
+data.setCell(56, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testCompletedStatusPassenger')
+data.setCell(57, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testLogoutReLogin')
+data.setCell(58, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testRiderAcceptsPassengerCancelsSts')
+data.setCell(59, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testGroupChatIcn')
+data.setCell(60, 2, 'com.quickride.scripts.RideViewTest')
+data.setCell(60, 3, 0);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testNotiProfile')
+data.setCell(61, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(61, 3, 0);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testSupportBike')
+data.setCell(62, 2, 'com.quickride.scripts.VehicleCustomisationTest')
+data.setCell(62, 3, 0);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testScheduledStatusRider')
+data.setCell(63, 2, 'com.quickride.scripts.RidesTest')
+data.setCell(63, 3, 0);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testNotiReject')
+data.setCell(64, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(64, 3, 0);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'testNewUserSignUPProfile')
+data.setCell(65, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(65, 3, 0);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testChangePassword')
+data.setCell(66, 2, 'com.quickride.scripts.UserConfigTest')
+data.setCell(66, 3, 0);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'testUserProfileSocialLinks')
+data.setCell(67, 2, 'com.quickride.scripts.UserConfigTest')
+data.setCell(67, 3, 0);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'testUpcomingRequested')
+data.setCell(68, 2, 'com.quickride.scripts.RideScheduleTest')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'testUserupdating')
+data.setCell(69, 2, 'com.quickride.scripts.UserConfigTest')
+data.setCell(69, 3, 0);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'testNewUserSignUP')
+data.setCell(70, 2, 'com.quickride.scripts.NewUserRegTest')
+data.setCell(70, 3, 0);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'testRiderStartedNoti')
+data.setCell(71, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(71, 3, 0);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'testFBLogin')
+data.setCell(72, 2, 'com.quickride.scripts.SocialGuestTest')
+data.setCell(72, 3, 0);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'testNotiCountTxt')
+data.setCell(73, 2, 'com.quickride.scripts.NotificationsTest')
+data.setCell(73, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">11 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.VehicleCustomisationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.NotificationsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.RideViewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.UserConfigTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.RechargeEncashTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.GroupChatTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.RideScheduleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.FeedbackTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.NewUserRegTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.RideMatchConstraintsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quickride.scripts.SocialGuestTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setobjects</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setobjects</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.FeedbackTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRatingFeedback</span>
+                <span class="method-start">1098 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.GroupChatTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGroupChat</span>
+                <span class="method-start">1106 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNewUserSignUP</span>
+                <span class="method-start">1110 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRiderPassengerJoinNoti</span>
+                <span class="method-start">1112 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RechargeEncashTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRecharge</span>
+                <span class="method-start">1114 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideMatchConstraintsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSameGender</span>
+                <span class="method-start">1117 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOffrRdCurrentLoc</span>
+                <span class="method-start">1120 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testScheduledStatusRider</span>
+                <span class="method-start">1123 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateMultipleRiders</span>
+                <span class="method-start">1126 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.SocialGuestTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGuestSignUp</span>
+                <span class="method-start">1129 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.UserConfigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUsersetting</span>
+                <span class="method-start">1132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.VehicleCustomisationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDefaultVehicleAdded</span>
+                <span class="method-start">1139 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.FeedbackTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testratingFeedback</span>
+                <span class="method-start">1148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.GroupChatTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOfflineGroupChat</span>
+                <span class="method-start">1151 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSignUpIncomplete</span>
+                <span class="method-start">1155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRiderStartedNoti</span>
+                <span class="method-start">1158 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RechargeEncashTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRechargeJoinRide</span>
+                <span class="method-start">1160 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideMatchConstraintsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSameCompany</span>
+                <span class="method-start">1162 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testReqstRdCurrentLoc</span>
+                <span class="method-start">1163 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testScheduledStatusPassenger</span>
+                <span class="method-start">1166 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testStartRide</span>
+                <span class="method-start">1168 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.SocialGuestTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFBLogin</span>
+                <span class="method-start">1171 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.UserConfigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testForgetPassword</span>
+                <span class="method-start">1173 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.VehicleCustomisationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFare</span>
+                <span class="method-start">1176 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSignUpErrCode</span>
+                <span class="method-start">1178 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRiderStartedCancelled</span>
+                <span class="method-start">1180 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RechargeEncashTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testEncashAmountShareLater</span>
+                <span class="method-start">1182 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRdrRejectsPassngrSrchRider</span>
+                <span class="method-start">1184 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testStartedStatusRider</span>
+                <span class="method-start">1185 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPassengerCheckIn</span>
+                <span class="method-start">1187 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.SocialGuestTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoginOthrUser</span>
+                <span class="method-start">1189 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.UserConfigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChangePassword</span>
+                <span class="method-start">1191 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.VehicleCustomisationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSupportBike</span>
+                <span class="method-start">1193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSignUpSameUser</span>
+                <span class="method-start">1195 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPassengerJoinsCancels</span>
+                <span class="method-start">1197 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RechargeEncashTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testEncashAmountShare</span>
+                <span class="method-start">1199 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRdrRejectsPassngr</span>
+                <span class="method-start">1201 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testStartedStatusPassenger</span>
+                <span class="method-start">1203 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPassengerCheckOut</span>
+                <span class="method-start">1205 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.UserConfigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUserupdating</span>
+                <span class="method-start">1207 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogoutReLogin</span>
+                <span class="method-start">1209 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRideNotiPassengerJoinsCancels</span>
+                <span class="method-start">1218 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RechargeEncashTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBillingCustomisedPricing</span>
+                <span class="method-start">1222 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUpcomingRequested</span>
+                <span class="method-start">1231 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRequestedStatusRider</span>
+                <span class="method-start">1233 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRiderStopRide</span>
+                <span class="method-start">1238 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.UserConfigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUserProfileSocialLinks</span>
+                <span class="method-start">1242 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoginWrongPwd</span>
+                <span class="method-start">1245 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNotiPassengerJoinsCancelsAfterStart</span>
+                <span class="method-start">1249 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RechargeEncashTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBillingZeroPricing</span>
+                <span class="method-start">1257 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMyRidesFavourite</span>
+                <span class="method-start">1259 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRequestedStatusPassenger</span>
+                <span class="method-start">1261 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRiderCancelRide</span>
+                <span class="method-start">1263 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.UserConfigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUserDifferentDevices</span>
+                <span class="method-start">1265 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCloseReOpenQR</span>
+                <span class="method-start">1266 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNotiDeletedLongPress</span>
+                <span class="method-start">1268 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSelectRide</span>
+                <span class="method-start">1270 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCompletedStatusRider</span>
+                <span class="method-start">1271 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGroupChatIcn</span>
+                <span class="method-start">1274 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNewUserSignUPProfile</span>
+                <span class="method-start">1276 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNotiDeleteBySwipe</span>
+                <span class="method-start">1277 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMoreCarCapacitySeats</span>
+                <span class="method-start">1278 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCompletedStatusPassenger</span>
+                <span class="method-start">1283 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLocation</span>
+                <span class="method-start">1322 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NewUserRegTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogoutNoVerifyQuickRide</span>
+                <span class="method-start">1488 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNotiReject</span>
+                <span class="method-start">1490 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideScheduleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCarCapacityCancelRide</span>
+                <span class="method-start">1491 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCancelledStsRider</span>
+                <span class="method-start">1493 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RideViewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testpassengercancelRide</span>
+                <span class="method-start">1495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNotiProfile</span>
+                <span class="method-start">1505 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCancelledStsPassenger</span>
+                <span class="method-start">1545 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.NotificationsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNotiCountTxt</span>
+                <span class="method-start">1548 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quickride.scripts.RidesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPassengerCancelStatus</span>
+                <span class="method-start">1549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRiderAcceptsPassengerCancelsSts</span>
+                <span class="method-start">1551 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

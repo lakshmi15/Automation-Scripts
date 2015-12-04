@@ -1,0 +1,16 @@
+######################     START OF THE TEST    ###################### -2015-11-23 14:46:40,583 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-11-23 14:47:18,532 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRatingFeedback                     -2015-11-23 14:47:18,533 - com.quickride.baselib.QRTestngListener - INFO
+Login button is displayed -2015-11-23 14:47:24,326 - com.quickride.PO.NewUserRegPO - INFO
+User is not registered, need to Sign Up first -2015-11-23 14:48:07,410 - com.quickride.PO.NewUserRegPO - INFO
+Sign Up is completed -2015-11-23 14:48:18,652 - com.quickride.PO.NewUserRegPO - INFO
+Account Activated popup is successfully displayed -2015-11-23 14:48:34,998 - com.quickride.PO.NewUserRegPO - INFO
+New Ride page is succesfully displayed -2015-11-23 14:48:36,804 - com.quickride.PO.NewUserRegPO - INFO
+Rider creating the ride -2015-11-23 14:48:36,804 - com.quickride.scripts.FeedbackTest - INFO
+Exception in createRide() -2015-11-23 14:48:40,411 - com.quickride.PO.FeedbackPO - ERROR
+TEST STATUS  =   	FAILED                     -2015-11-23 14:48:40,428 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-11-23 14:48:40,428 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	FAILED                     -2015-11-23 14:48:41,457 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-11-23 14:48:41,458 - com.quickride.baselib.QRTestngListener - INFO
+                                                                     -2015-11-23 14:48:42,771 - com.quickride.baselib.QRTestngListener - INFO
+######################     END OF THE TEST    ###################### -2015-11-23 14:48:42,771 - com.quickride.baselib.QRTestngListener - INFO

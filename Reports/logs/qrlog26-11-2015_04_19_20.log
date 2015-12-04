@@ -1,0 +1,4 @@
+######################     START OF THE TEST    ###################### -2015-11-26 16:19:21,441 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-11-26 16:19:53,123 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRatingFeedback                     -2015-11-26 16:19:53,127 - com.quickride.baselib.QRTestngListener - INFO
+Login button is displayed -2015-11-26 16:19:58,798 - com.quickride.PO.NewUserRegPO - INFO
