@@ -1,0 +1,297 @@
+######################     START OF THE TEST    ###################### -2015-12-04 17:33:01,078 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,175 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRatingFeedback                     -2015-12-04 17:33:33,175 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,176 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,176 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,183 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testGroupChat                     -2015-12-04 17:33:33,184 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,184 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,184 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,187 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testNewUserSignUP                     -2015-12-04 17:33:33,187 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,187 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,187 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,189 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRiderPassengerJoinNoti                     -2015-12-04 17:33:33,189 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,189 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,189 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,191 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRecharge                     -2015-12-04 17:33:33,191 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,191 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,191 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,198 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testSameGender                     -2015-12-04 17:33:33,199 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,199 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,199 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,202 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testOffrRdCurrentLoc                     -2015-12-04 17:33:33,202 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,205 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,205 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,207 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testScheduledStatusRider                     -2015-12-04 17:33:33,207 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,212 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,212 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,217 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testCreateMultipleRiders                     -2015-12-04 17:33:33,217 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,218 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,218 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,220 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testGuestSignUp                     -2015-12-04 17:33:33,220 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,221 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,221 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,223 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testUsersetting                     -2015-12-04 17:33:33,223 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,223 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,223 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,225 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testDefaultVehicleAdded                     -2015-12-04 17:33:33,225 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,232 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,233 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,235 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testratingFeedback                     -2015-12-04 17:33:33,235 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,236 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,236 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,238 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testOfflineGroupChat                     -2015-12-04 17:33:33,238 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,239 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,239 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,240 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testSignUpIncomplete                     -2015-12-04 17:33:33,240 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,240 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,240 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,241 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRiderStartedNoti                     -2015-12-04 17:33:33,241 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,242 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,242 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,243 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRechargeJoinRide                     -2015-12-04 17:33:33,243 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,244 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,244 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,246 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testSameCompany                     -2015-12-04 17:33:33,246 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,246 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,246 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,248 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testReqstRdCurrentLoc                     -2015-12-04 17:33:33,248 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,248 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,248 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,250 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testScheduledStatusPassenger                     -2015-12-04 17:33:33,251 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,252 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,252 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,256 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testStartRide                     -2015-12-04 17:33:33,257 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,257 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,257 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,263 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testFBLogin                     -2015-12-04 17:33:33,263 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,264 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,264 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,266 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testForgetPassword                     -2015-12-04 17:33:33,266 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,267 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,267 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,269 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testFare                     -2015-12-04 17:33:33,269 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,270 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,270 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,273 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testSignUpErrCode                     -2015-12-04 17:33:33,273 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,273 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,273 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,275 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRiderStartedCancelled                     -2015-12-04 17:33:33,275 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,275 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,275 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,276 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testEncashAmountShareLater                     -2015-12-04 17:33:33,276 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,276 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,276 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,277 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRdrRejectsPassngrSrchRider                     -2015-12-04 17:33:33,277 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,278 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,278 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,280 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testStartedStatusRider                     -2015-12-04 17:33:33,280 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,281 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,281 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,283 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testPassengerCheckIn                     -2015-12-04 17:33:33,284 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,284 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,284 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,286 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testLoginOthrUser                     -2015-12-04 17:33:33,286 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,286 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,286 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,294 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testChangePassword                     -2015-12-04 17:33:33,294 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,297 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,297 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,299 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testSupportBike                     -2015-12-04 17:33:33,299 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,299 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,300 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,301 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testSignUpSameUser                     -2015-12-04 17:33:33,301 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,302 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,302 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,304 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testPassengerJoinsCancels                     -2015-12-04 17:33:33,304 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,308 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,308 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,310 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testEncashAmountShare                     -2015-12-04 17:33:33,310 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,310 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,310 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,313 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRdrRejectsPassngr                     -2015-12-04 17:33:33,314 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,314 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,314 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,316 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testStartedStatusPassenger                     -2015-12-04 17:33:33,316 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,316 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,316 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,318 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testPassengerCheckOut                     -2015-12-04 17:33:33,318 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,318 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,318 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,320 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testUserupdating                     -2015-12-04 17:33:33,320 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,320 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,320 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,325 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testLogoutReLogin                     -2015-12-04 17:33:33,326 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,326 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,326 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,330 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRideNotiPassengerJoinsCancels                     -2015-12-04 17:33:33,330 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,331 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,331 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,339 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testBillingCustomisedPricing                     -2015-12-04 17:33:33,339 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,340 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,340 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,344 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testUpcomingRequested                     -2015-12-04 17:33:33,344 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,344 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,344 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,347 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRequestedStatusRider                     -2015-12-04 17:33:33,347 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,347 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,348 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,349 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRiderStopRide                     -2015-12-04 17:33:33,349 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,350 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,350 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,351 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testUserProfileSocialLinks                     -2015-12-04 17:33:33,351 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,352 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,352 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,353 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testLoginWrongPwd                     -2015-12-04 17:33:33,353 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,356 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,357 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,359 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testNotiPassengerJoinsCancelsAfterStart                     -2015-12-04 17:33:33,359 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,359 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,359 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,366 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testBillingZeroPricing                     -2015-12-04 17:33:33,366 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,367 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,367 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,369 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testMyRidesFavourite                     -2015-12-04 17:33:33,371 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,451 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,452 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,456 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRequestedStatusPassenger                     -2015-12-04 17:33:33,457 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,457 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,457 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,459 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRiderCancelRide                     -2015-12-04 17:33:33,459 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,459 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,459 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,461 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testUserDifferentDevices                     -2015-12-04 17:33:33,462 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,462 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,463 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,466 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testCloseReOpenQR                     -2015-12-04 17:33:33,466 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,468 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,468 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,472 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testNotiDeletedLongPress                     -2015-12-04 17:33:33,472 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,472 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,472 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,474 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testSelectRide                     -2015-12-04 17:33:33,475 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,475 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,475 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,480 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testCompletedStatusRider                     -2015-12-04 17:33:33,483 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,483 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,483 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,485 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testGroupChatIcn                     -2015-12-04 17:33:33,485 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,485 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,486 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,489 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testNewUserSignUPProfile                     -2015-12-04 17:33:33,489 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,489 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,489 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,491 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testNotiDeleteBySwipe                     -2015-12-04 17:33:33,491 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,506 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,506 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,521 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testMoreCarCapacitySeats                     -2015-12-04 17:33:33,521 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,525 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,525 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,530 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testCompletedStatusPassenger                     -2015-12-04 17:33:33,530 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,531 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,531 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,533 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testLocation                     -2015-12-04 17:33:33,533 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,534 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,534 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,554 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testLogoutNoVerifyQuickRide                     -2015-12-04 17:33:33,555 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,556 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,557 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,561 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testNotiReject                     -2015-12-04 17:33:33,561 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,562 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,562 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,566 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testCarCapacityCancelRide                     -2015-12-04 17:33:33,566 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,567 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,567 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,568 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testCancelledStsRider                     -2015-12-04 17:33:33,568 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,568 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,568 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,569 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testpassengercancelRide                     -2015-12-04 17:33:33,569 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,570 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,570 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,581 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testNotiProfile                     -2015-12-04 17:33:33,581 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,581 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,581 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,586 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testCancelledStsPassenger                     -2015-12-04 17:33:33,586 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,587 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,587 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,589 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testNotiCountTxt                     -2015-12-04 17:33:33,589 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,589 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,589 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,591 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testPassengerCancelStatus                     -2015-12-04 17:33:33,591 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,591 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,591 - com.quickride.baselib.QRTestngListener - INFO
+_____________	   RUNNING TESTCASE 	___________ -2015-12-04 17:33:33,595 - com.quickride.baselib.QRTestngListener - INFO
+TESTCASE ID  =  	testRiderAcceptsPassengerCancelsSts                     -2015-12-04 17:33:33,595 - com.quickride.baselib.QRTestngListener - INFO
+TEST STATUS  =   	SKIPPED                     -2015-12-04 17:33:33,602 - com.quickride.baselib.QRTestngListener - ERROR
+___________________________________________________ -2015-12-04 17:33:33,616 - com.quickride.baselib.QRTestngListener - INFO

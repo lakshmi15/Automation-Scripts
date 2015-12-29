@@ -61,6 +61,7 @@ public class QRBaseLib
 		//capabilities.setCapability("resetKeyboard", true);
 		driver=new AndroidDriver(new URL(genericLib.getCongigValue(sConfigFile, "URL")), capabilities);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		
 	}
 	@AfterMethod
 	public void tearDown()

@@ -226,11 +226,5 @@ public class GenericLib
 			}
 		}
 	
-	public static void main(String[] args) throws SQLException 
-	{
-		GenericLib.setDBdata(GenericLib.getCongigValue(sConfigFile, "ACCOUNT"), "balance", "20", "id","9886174868");
-		System.out.println("Done");
-		
-		
-	}
+	
 }

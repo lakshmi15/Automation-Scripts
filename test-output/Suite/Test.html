@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/74</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 23 14:46:40 IST 2015</td>
+<td>Started on:</td><td>Fri Dec 04 17:33:01 IST 2015</td>
 </tr>
-<tr><td>Total time:</td><td>121 seconds (121885 ms)</td>
+<tr><td>Total time:</td><td>32 seconds (32550 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,29 +68,88 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.quickride.scripts.FeedbackTest.testRatingFeedback()'><b>testRatingFeedback</b><br>Test class: com.quickride.scripts.FeedbackTest</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.quickride.PO.FeedbackPO.createRide(FeedbackPO.java:372)
-	at com.quickride.scripts.FeedbackTest.testRatingFeedback(FeedbackTest.java:57)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2072130509", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2072130509'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.fail(Assert.java:101)
-	at com.quickride.PO.FeedbackPO.createRide(FeedbackPO.java:372)
-	at com.quickride.scripts.FeedbackTest.testRatingFeedback(FeedbackTest.java:57)
+<td title='com.quickride.scripts.FeedbackTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.FeedbackTest</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;CBT-076&apos;, ip: &apos;10.10.5.26&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:160)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:168)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:69)
+	at com.quickride.baselib.QRBaseLib.setUp(QRBaseLib.java:62)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;CBT-076&apos;, ip: &apos;10.10.5.26&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.invoke(CPoolProxy.java:138)
+	at com.sun.proxy.$Proxy6.receiveResponseHeader(Unknown Source)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 38 more
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1042790962", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1042790962'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;CBT-076&apos;, ip: &apos;10.10.5.26&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:160)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:168)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:69)
+	at com.quickride.baselib.QRBaseLib.setUp(QRBaseLib.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:601)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -109,124 +168,1167 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;CBT-076&apos;, ip: &apos;10.10.5.26&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.http.impl.conn.CPoolProxy.invoke(CPoolProxy.java:138)
+	at com.sun.proxy.$Proxy6.receiveResponseHeader(Unknown Source)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 38 more
 </pre></div></td>
-<td>81</td>
-<td>com.quickride.scripts.FeedbackTest@768b970c</td></tr>
+<td>0</td>
+<td>com.quickride.scripts.FeedbackTest@5d11346a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.quickride.scripts.GroupChatTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.GroupChatTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.GroupChatTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideMatchConstraintsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideMatchConstraintsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideMatchConstraintsTest@7a36aefa</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.FeedbackTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.FeedbackTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.FeedbackTest@5d11346a</td></tr>
+<tr>
+<td title='com.quickride.scripts.GroupChatTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.GroupChatTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.GroupChatTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideMatchConstraintsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideMatchConstraintsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideMatchConstraintsTest@7a36aefa</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.setUp()'><b>setUp</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.FeedbackTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.FeedbackTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.FeedbackTest@5d11346a</td></tr>
+<tr>
+<td title='com.quickride.scripts.GroupChatTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.GroupChatTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.GroupChatTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideMatchConstraintsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideMatchConstraintsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideMatchConstraintsTest@7a36aefa</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.FeedbackTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.FeedbackTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.FeedbackTest@5d11346a</td></tr>
+<tr>
+<td title='com.quickride.scripts.GroupChatTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.GroupChatTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.GroupChatTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideMatchConstraintsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideMatchConstraintsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideMatchConstraintsTest@7a36aefa</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.tearDown()'><b>tearDown</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.testBillingCustomisedPricing()'><b>testBillingCustomisedPricing</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.testBillingZeroPricing()'><b>testBillingZeroPricing</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testCancelledStsPassenger()'><b>testCancelledStsPassenger</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testCancelledStsRider()'><b>testCancelledStsRider</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testCarCapacityCancelRide()'><b>testCarCapacityCancelRide</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.testChangePassword()'><b>testChangePassword</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testCloseReOpenQR()'><b>testCloseReOpenQR</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testCompletedStatusPassenger()'><b>testCompletedStatusPassenger</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testCompletedStatusRider()'><b>testCompletedStatusRider</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testCreateMultipleRiders()'><b>testCreateMultipleRiders</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.testDefaultVehicleAdded()'><b>testDefaultVehicleAdded</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.testEncashAmountShare()'><b>testEncashAmountShare</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.testEncashAmountShareLater()'><b>testEncashAmountShareLater</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.testFBLogin()'><b>testFBLogin</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.testFare()'><b>testFare</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.testForgetPassword()'><b>testForgetPassword</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.GroupChatTest.testGroupChat()'><b>testGroupChat</b><br>Test class: com.quickride.scripts.GroupChatTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.GroupChatTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testGroupChatIcn()'><b>testGroupChatIcn</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.testGuestSignUp()'><b>testGuestSignUp</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testLocation()'><b>testLocation</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.SocialGuestTest.testLoginOthrUser()'><b>testLoginOthrUser</b><br>Test class: com.quickride.scripts.SocialGuestTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.SocialGuestTest@2fd66ad3</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testLoginWrongPwd()'><b>testLoginWrongPwd</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testLogoutNoVerifyQuickRide()'><b>testLogoutNoVerifyQuickRide</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testLogoutReLogin()'><b>testLogoutReLogin</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testMoreCarCapacitySeats()'><b>testMoreCarCapacitySeats</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testMyRidesFavourite()'><b>testMyRidesFavourite</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testNewUserSignUP()'><b>testNewUserSignUP</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testNewUserSignUPProfile()'><b>testNewUserSignUPProfile</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testNotiCountTxt()'><b>testNotiCountTxt</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testNotiDeleteBySwipe()'><b>testNotiDeleteBySwipe</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testNotiDeletedLongPress()'><b>testNotiDeletedLongPress</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testNotiPassengerJoinsCancelsAfterStart()'><b>testNotiPassengerJoinsCancelsAfterStart</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testNotiProfile()'><b>testNotiProfile</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testNotiReject()'><b>testNotiReject</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.GroupChatTest.testOfflineGroupChat()'><b>testOfflineGroupChat</b><br>Test class: com.quickride.scripts.GroupChatTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.GroupChatTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testOffrRdCurrentLoc()'><b>testOffrRdCurrentLoc</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testPassengerCancelStatus()'><b>testPassengerCancelStatus</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testPassengerCheckIn()'><b>testPassengerCheckIn</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testPassengerCheckOut()'><b>testPassengerCheckOut</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testPassengerJoinsCancels()'><b>testPassengerJoinsCancels</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
 <tr>
 <td title='com.quickride.scripts.FeedbackTest.testRatingFeedback()'><b>testRatingFeedback</b><br>Test class: com.quickride.scripts.FeedbackTest</td>
-<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
-System info: host: &apos;CBT-076&apos;, ip: &apos;10.10.5.26&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:189)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:320)
-	at com.quickride.baselib.QRTestngListener.onTestFailure(QRTestngListener.java:127)
-Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
-System info: host: &apos;CBT-076&apos;, ip: &apos;10.10.5.26&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: driver.version: RemoteWebDriver
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
-	... 25 more
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
-	... 26 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
-	... 39 more
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1260440107", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1260440107'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
-System info: host: &apos;CBT-076&apos;, ip: &apos;10.10.5.26&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:189)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:320)
-	at com.quickride.baselib.QRTestngListener.onTestFailure(QRTestngListener.java:127)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1797)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1781)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:721)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
-System info: host: &apos;CBT-076&apos;, ip: &apos;10.10.5.26&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: driver.version: RemoteWebDriver
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
-	... 25 more
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
-	... 26 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
-	... 39 more
-</pre></div></td>
-<td>120</td>
-<td>com.quickride.scripts.FeedbackTest@768b970c</td></tr>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.FeedbackTest@5d11346a</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testRdrRejectsPassngr()'><b>testRdrRejectsPassngr</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testRdrRejectsPassngrSrchRider()'><b>testRdrRejectsPassngrSrchRider</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.testRecharge()'><b>testRecharge</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RechargeEncashTest.testRechargeJoinRide()'><b>testRechargeJoinRide</b><br>Test class: com.quickride.scripts.RechargeEncashTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RechargeEncashTest@5123a213</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testReqstRdCurrentLoc()'><b>testReqstRdCurrentLoc</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testRequestedStatusPassenger()'><b>testRequestedStatusPassenger</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testRequestedStatusRider()'><b>testRequestedStatusRider</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testRideNotiPassengerJoinsCancels()'><b>testRideNotiPassengerJoinsCancels</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testRiderAcceptsPassengerCancelsSts()'><b>testRiderAcceptsPassengerCancelsSts</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testRiderCancelRide()'><b>testRiderCancelRide</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testRiderPassengerJoinNoti()'><b>testRiderPassengerJoinNoti</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testRiderStartedCancelled()'><b>testRiderStartedCancelled</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.NotificationsTest.testRiderStartedNoti()'><b>testRiderStartedNoti</b><br>Test class: com.quickride.scripts.NotificationsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NotificationsTest@b3d7190</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testRiderStopRide()'><b>testRiderStopRide</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideMatchConstraintsTest.testSameCompany()'><b>testSameCompany</b><br>Test class: com.quickride.scripts.RideMatchConstraintsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideMatchConstraintsTest@7a36aefa</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideMatchConstraintsTest.testSameGender()'><b>testSameGender</b><br>Test class: com.quickride.scripts.RideMatchConstraintsTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideMatchConstraintsTest@7a36aefa</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testScheduledStatusPassenger()'><b>testScheduledStatusPassenger</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testScheduledStatusRider()'><b>testScheduledStatusRider</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testSelectRide()'><b>testSelectRide</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testSignUpErrCode()'><b>testSignUpErrCode</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testSignUpIncomplete()'><b>testSignUpIncomplete</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.NewUserRegTest.testSignUpSameUser()'><b>testSignUpSameUser</b><br>Test class: com.quickride.scripts.NewUserRegTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.NewUserRegTest@fe18270</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testStartRide()'><b>testStartRide</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testStartedStatusPassenger()'><b>testStartedStatusPassenger</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.RidesTest.testStartedStatusRider()'><b>testStartedStatusRider</b><br>Test class: com.quickride.scripts.RidesTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RidesTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.quickride.scripts.VehicleCustomisationTest.testSupportBike()'><b>testSupportBike</b><br>Test class: com.quickride.scripts.VehicleCustomisationTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.VehicleCustomisationTest@727803de</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideScheduleTest.testUpcomingRequested()'><b>testUpcomingRequested</b><br>Test class: com.quickride.scripts.RideScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideScheduleTest@17211155</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.testUserDifferentDevices()'><b>testUserDifferentDevices</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.testUserProfileSocialLinks()'><b>testUserProfileSocialLinks</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.testUsersetting()'><b>testUsersetting</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.UserConfigTest.testUserupdating()'><b>testUserupdating</b><br>Test class: com.quickride.scripts.UserConfigTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.UserConfigTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.quickride.scripts.RideViewTest.testpassengercancelRide()'><b>testpassengercancelRide</b><br>Test class: com.quickride.scripts.RideViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.RideViewTest@10d59286</td></tr>
+<tr>
+<td title='com.quickride.scripts.FeedbackTest.testratingFeedback()'><b>testratingFeedback</b><br>Test class: com.quickride.scripts.FeedbackTest</td>
+<td></td>
+<td>0</td>
+<td>com.quickride.scripts.FeedbackTest@5d11346a</td></tr>
 </table><p>
 </body>
 </html>
